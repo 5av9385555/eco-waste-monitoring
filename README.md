@@ -68,9 +68,8 @@
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Confusion Matrix
-![Confusion Matrix](...)
+![Confusion Matrix](reports/confusion_matrix.png)
 
 Классы *plastic* и *glass* чаще всего путаются между собой из-за визуального сходства.
 
