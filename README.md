@@ -65,8 +65,12 @@
 - **Accuracy:** 95.9%
 - **Dataset:** TrashNet (2527 изображений, 6 классов)
 
-### Confusion Matrix
-![Confusion Matrix](reports/confusion_matrix_from_notebook.png)
+```bash
+pip install -r requirements.txt
+```
+
+## Confusion Matrix
+![Confusion Matrix](...)
 
 Классы *plastic* и *glass* чаще всего путаются между собой из-за визуального сходства.
 
