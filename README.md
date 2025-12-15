@@ -60,6 +60,17 @@
 - **Описание:** изображения бытовых отходов, распределённые по папкам в соответствии с классами
 
 ---
+## 📊 Результаты и оценка модели
+
+- **Accuracy:** 95.9%
+- **Dataset:** TrashNet (2527 изображений, 6 классов)
+
+### Confusion Matrix
+![Confusion Matrix](reports/confusion_matrix_from_notebook.png)
+
+Классы *plastic* и *glass* чаще всего путаются между собой из-за визуального сходства.
+
+---
 
 ## ⚙️ Подготовка окружения и запуск
 
@@ -69,9 +80,3 @@ pip install -r requirements.txt
 python -m src.download_data
 python -m src.evaluate
 ```
-
-```bash
-pip install -r requirements.txt
-```
-## Confusion Matrix
-![Confusion Matrix](reports/confusion_matrix.png)
