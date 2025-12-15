@@ -69,6 +69,9 @@ pip install -r requirements.txt
 python -m src.download_data
 python -m src.evaluate
 ```
-## Confusion Matrix
 
+```bash
+pip install -r requirements.txt
+```
+## Confusion Matrix
 ![Confusion Matrix](https://raw.githubusercontent.com/5av9385555/eco-waste-monitoring/main/reports/confusion_matrix_from_notebook.png)
