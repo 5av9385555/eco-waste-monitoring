@@ -69,3 +69,6 @@ pip install -r requirements.txt
 python -m src.download_data
 python -m src.evaluate
 
+## Confusion Matrix
+
+![Confusion Matrix](reports/confusion_matrix_from_notebook.png)
